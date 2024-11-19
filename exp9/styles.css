@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+.container h1,
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.error {
+  color: #d8000c;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.btn-login,
+.btn-logout {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-login:hover,
+.btn-logout:hover {
+  background-color: #45a049;
+}
+
+.btn-signup {
+  background-color: #008cba;
+  color: white;
+}
+
+.btn-signup:hover {
+  background-color: #007bb5;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.checkbox-container input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.checkbox-container label {
+  margin: 0;
+  font-size: 16px;
+}
